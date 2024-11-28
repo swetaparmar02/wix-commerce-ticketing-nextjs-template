@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use client';
 import { Accordion, Flowbite } from 'flowbite-react';
 import { FC, useEffect, useMemo, useState } from 'react';
@@ -221,6 +222,7 @@ export const ProductSidebar: FC<ProductSidebarProps> = ({ product }) => {
           </Accordion>
         </Flowbite>
       </div>
+      {/* */}
     </>
   );
 };

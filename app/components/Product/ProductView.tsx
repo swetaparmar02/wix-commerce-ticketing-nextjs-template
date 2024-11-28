@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ProductSidebar } from './ProductSidebar/ProductSidebar';
 import { ImageGalleryClient } from '@app/components/ImageGallery/ImageGallery.client';
 import testIds from '@app/utils/test-ids';

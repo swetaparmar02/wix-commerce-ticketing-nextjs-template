@@ -95,7 +95,7 @@ export function HomeScreen({
                 >
                 {
                 <path 
-                    fill="currentColor"
+                     fill="currentColor"
                     d="M100.28 448H7.4V148.9h92.88zm-46.44-334.4C24.11 113.6 0 89.49 0 60.44 0 27.11 27.11 0 60.44 0s60.44 27.11 60.44 60.44c0 29.05-24.11 53.16-53.16 53.16zM447.9 448h-92.68V302.4c0-34.76-12.47-58.48-43.73-58.48-23.88 0-38.05 16.06-44.31 31.56-2.28 5.56-2.84 13.28-2.84 21.05V448h-92.78s1.25-264.33 0-291.1h92.78v41.23c-.19.3-.46.61-.65.91h.65v-.91c12.31-19 34.31-46.15 83.37-46.15 60.86 0 106.54 39.67 106.54 124.81V448z" />
 
                   }
@@ -125,30 +125,34 @@ export function HomeScreen({
           height={245}
         />
       </div>
+                
+
+
+
       {events?.length ? (
         <div className="bg-zinc-900 text-site pt-16 sm:p-20">
           <Events events={events} />
         </div>
       ) : (
         <div className="text-3xl w-full text-center p-9 box-border max-w-4xl mx-auto">
-          No events found. Click{' '}
+          {/* No events found. Click{' '} */}
           <a
             href="https://manage.wix.com/account/site-selector?actionUrl=https%3A%2F%2Fmanage.wix.com%2Fdashboard%2F%7BmetaSiteId%7D%2Fevents%3FreferralInfo%3DHeadless"
             target="_blank"
             rel="noreferrer"
             className="text-purple-500"
           >
-            here
+            {/* here */}
           </a>{' '}
-          to go to the business dashboard to add events. Once added, they will
-          appear here.
+          {/* to go to the business dashboard to add events. Once added, they will
+          appear here. */}
         </div>
       )}
       {productsForCategories.length ? (
         <div className="flex gap-2 sm:gap-14 px-14 flex-col sm:flex-row">
           <div className="text-custom-1 text-center sm:text-left pt-10 sm:py-20 basis-1/2">
             <h1 className="uppercase text-4xl sm:text-7xl text-center sm:text-left text-black">
-              Merch
+              Products
             </h1>
             <p className="text-lg my-10 text-black">
               I am a paragraph. I’m a great space to write about what makes the
@@ -159,7 +163,7 @@ export function HomeScreen({
               href="/shop"
               className="btn-main rounded-2xl text-base px-8 py-2.5"
             >
-              Get Merch
+              Get Products
             </a>
             {productsForCategories[1]?.product?.media?.mainMedia ? (
               <div className="mt-10 sm:mt-[300px]">
@@ -183,7 +187,7 @@ export function HomeScreen({
               </div>
             ) : null}
           </div>
-          <div className="basis-1/2">
+          {/* <div className="basis-1/2">
             {productsForCategories[0]?.product?.media?.mainMedia ? (
               <div className="mt-10 sm:mt-[220px]">
                 <a href="/shop" className="h-auto max-w-full inline-block">
@@ -226,7 +230,7 @@ export function HomeScreen({
                 </span>
               </div>
             ) : null}
-          </div>
+          </div> */}
         </div>
       ) : (
         <div className="text-3xl w-full text-center p-9 box-border max-w-4xl mx-auto">

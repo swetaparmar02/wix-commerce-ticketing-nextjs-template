@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use client';
 import { useWixClient } from '@app/hooks/useWixClient';
 import Cookies from 'js-cookie';

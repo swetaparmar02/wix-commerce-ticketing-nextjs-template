@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { defineConfig, devices } from '@playwright/test';
 import * as process from 'process';
 

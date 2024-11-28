@@ -1,7 +1,9 @@
+/* eslint-disable prettier/prettier */
 import { CartBag } from '@app/components/CartBag/CartBag';
 import { NavBar } from './NavBar/NavBar';
 import { Login } from '@app/components/Login/Login';
 import testIds from '@app/utils/test-ids';
+import Link from 'next/link';
 
 const Header = () => (
   <>
@@ -13,6 +15,11 @@ const Header = () => (
         <h2 className="flex-1">
           <a href="/">SWE#A P!RM!R</a>
         </h2>
+        <h3>
+          <main>
+            <Link href="/users">Users</Link>
+          </main>
+        </h3>
         <div>
           <Login />
         </div>

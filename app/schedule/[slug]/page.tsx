@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { getWixClient } from '@app/hooks/useWixClientServer';
 import { ScheduleEvent } from '@app/components/Schedule/ScheduleEvent';
 import { wixEventsV2 as wixEvents } from '@wix/events';

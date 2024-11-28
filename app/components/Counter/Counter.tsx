@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Dropdown, Flowbite, useTheme } from 'flowbite-react';
 
 export function Counter({

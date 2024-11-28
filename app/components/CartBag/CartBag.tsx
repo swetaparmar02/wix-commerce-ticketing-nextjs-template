@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use client';
 import { useUI } from '@app/components/Provider/context';
 import { useCart } from '@app/hooks/useCart';

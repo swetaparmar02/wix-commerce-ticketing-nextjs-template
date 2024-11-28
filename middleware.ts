@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient, OAuthStrategy } from '@wix/sdk';
 import { WIX_REFRESH_TOKEN } from '@app/constants';

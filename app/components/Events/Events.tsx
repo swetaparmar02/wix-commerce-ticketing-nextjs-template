@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use client';
 import { WixMediaImage } from '@app/components/Image/WixMediaImage';
 import { getDatePart } from '@app/utils/date-formatter';

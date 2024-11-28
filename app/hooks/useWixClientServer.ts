@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { createClient, OAuthStrategy } from '@wix/sdk';
 import { collections, products } from '@wix/stores';
 import { orders, currentCart, checkout as ecomCheckout } from '@wix/ecom';

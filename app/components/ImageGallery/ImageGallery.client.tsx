@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use client';
 import { Carousel, Flowbite, useTheme } from 'flowbite-react';
 import { products } from '@wix/stores';

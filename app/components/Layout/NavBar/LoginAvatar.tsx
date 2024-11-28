@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { SVGProps } from 'react';
 
 const LoginAvatar = (props: SVGProps<any>) => (

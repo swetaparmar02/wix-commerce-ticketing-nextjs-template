@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use client';
 import { NavLink } from './NavLink';
 import { useCallback, useState } from 'react';
